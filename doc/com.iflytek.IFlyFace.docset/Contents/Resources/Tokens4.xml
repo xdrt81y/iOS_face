@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IFlyFaceVersion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IFlyFaceVersion</TokenIdentifier>
+			<Abstract type="html">IFlyFaceVersion
+SDK 版本类</Abstract>
+			<DeclaredIn>IFlyFaceVersion.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceVersion/getVersion</TokenIdentifier>
+			<Abstract type="html">获取SDK版本号</Abstract>
+			<DeclaredIn>IFlyFaceVersion.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)getVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">版本号</Abstract></ReturnValue>
+			<Anchor>//api/name/getVersion</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

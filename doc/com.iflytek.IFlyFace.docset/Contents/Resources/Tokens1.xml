@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IFlyFaceConstant.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IFlyFaceConstant</TokenIdentifier>
+			<Abstract type="html">人脸识别常数类</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/SUB</TokenIdentifier>
+			<Abstract type="html">sub 默认值:wfr
+用于区分业务类型,web访问方式中，nginx配置不用使用，但是在结构化日志和染色日志记录中使用。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)SUB</Declaration>
+			
+			
+			<Anchor>//api/name/SUB</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/WFR</TokenIdentifier>
+			<Abstract type="html">WFR
+sub参数的默认值</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)WFR</Declaration>
+			
+			
+			<Anchor>//api/name/WFR</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/SST</TokenIdentifier>
+			<Abstract type="html">sst
+指定本路会话是属于何种性质</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)SST</Declaration>
+			
+			
+			<Anchor>//api/name/SST</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/REG</TokenIdentifier>
+			<Abstract type="html">REG
+人脸图像注册(reg)：上传图像，验证图像的有效性，然后存储起来，作为数据源。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)REG</Declaration>
+			
+			
+			<Anchor>//api/name/REG</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/VERIFY</TokenIdentifier>
+			<Abstract type="html">VERIFY
+人脸图像验证(verify)：通过与指定源图像比较，验证人脸相似性。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)VERIFY</Declaration>
+			
+			
+			<Anchor>//api/name/VERIFY</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/DETECT</TokenIdentifier>
+			<Abstract type="html">DETECT
+人脸图像检测(detect)：能够检测出不同姿态方位的人脸在图中的位置。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)DETECT</Declaration>
+			
+			
+			<Anchor>//api/name/DETECT</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/ALIGN</TokenIdentifier>
+			<Abstract type="html">ALIGN
+人脸图像聚焦(align)：在给定人脸框下自动标定出两眼、鼻尖、嘴角的坐标。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)ALIGN</Declaration>
+			
+			
+			<Anchor>//api/name/ALIGN</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/ATTR</TokenIdentifier>
+			<Abstract type="html">ATTR
+面部属性识别(attr)：对面部属性进行识别：例如秃顶、刘海、大嘴、模糊、眼镜等。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)ATTR</Declaration>
+			
+			
+			<Anchor>//api/name/ATTR</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/AUE</TokenIdentifier>
+			<Abstract type="html">AUE
+图像压缩格式，现在引擎不支持图像压缩，aue只能取值raw</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)AUE</Declaration>
+			
+			
+			<Anchor>//api/name/AUE</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/RAW</TokenIdentifier>
+			<Abstract type="html">RAW
+AUE参数的值</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)RAW</Declaration>
+			
+			
+			<Anchor>//api/name/RAW</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/PSET</TokenIdentifier>
+			<Abstract type="html">PSET
+人脸识别验证阈值，取值可以是负数也可以是整数。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)PSET</Declaration>
+			
+			
+			<Anchor>//api/name/PSET</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/SKIP</TokenIdentifier>
+			<Abstract type="html">SKIP
+后台图片处理是否进行过滤。true表示不过滤，false表示过滤，传入字符串@“true”或@“false”</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)SKIP</Declaration>
+			
+			
+			<Anchor>//api/name/SKIP</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/GID</TokenIdentifier>
+			<Abstract type="html">GID
+图像模型id，如：4a6c124ed6b78436ee5aac4563f13eb5
+注意:在注册没有传入auth_id 的情况下，验证时需要传入注册时返回的GID。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)GID</Declaration>
+			
+			
+			<Anchor>//api/name/GID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/APPID</TokenIdentifier>
+			<Abstract type="html">APPID
+用户申请的appid,用于验证用户</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)APPID</Declaration>
+			
+			
+			<Anchor>//api/name/APPID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/DVC</TokenIdentifier>
+			<Abstract type="html">DVC
+用户设备编号,用于验证用户</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)DVC</Declaration>
+			
+			
+			<Anchor>//api/name/DVC</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/AUTH_ID</TokenIdentifier>
+			<Abstract type="html">AUTH_ID
+用于第三方用户关联。
+需要注意如果注册时传入此参数，验证时也需要传入此参数。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)AUTH_ID</Declaration>
+			
+			
+			<Anchor>//api/name/AUTH_ID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/PROPERTY</TokenIdentifier>
+			<Abstract type="html">PROPERTY
+属性，模型控制参数。
+目前支持：传入标识是否删除数据库里的用户模型。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)PROPERTY</Declaration>
+			
+			
+			<Anchor>//api/name/PROPERTY</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/DEL</TokenIdentifier>
+			<Abstract type="html">DEL
+属性参数值，标识删除数据库里的用户模型。
+注册时传入del 删除已注册的模型。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)DEL</Declaration>
+			
+			
+			<Anchor>//api/name/DEL</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyFaceConstant/UNDEL</TokenIdentifier>
+			<Abstract type="html">UNDEL
+属性参数值，标识不删除删除数据库里的用户模型。
+注册时传入undel 不删除用户模型，继续重新注册。</Abstract>
+			<DeclaredIn>IFlyFaceConstant.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)UNDEL</Declaration>
+			
+			
+			<Anchor>//api/name/UNDEL</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

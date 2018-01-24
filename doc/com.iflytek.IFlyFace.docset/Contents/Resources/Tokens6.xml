@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/IFlySpeechFaceRequestDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/IFlySpeechFaceRequestDelegate</TokenIdentifier>
+			<Abstract type="html">人脸识别请求协议</Abstract>
+			<DeclaredIn>IFlySpeechFaceRequestDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/IFlySpeechFaceRequestDelegate/onEvent:WithBundle:</TokenIdentifier>
+			<Abstract type="html">消息回调</Abstract>
+			<DeclaredIn>IFlySpeechFaceRequestDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onEvent:(int)eventType WithBundle:(NSString *)params</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>eventType</Name>
+					<Abstract type="html">消息类型</Abstract>
+				</Parameter><Parameter>
+					<Name>params</Name>
+					<Abstract type="html">消息数据对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onEvent:WithBundle:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/IFlySpeechFaceRequestDelegate/onData:</TokenIdentifier>
+			<Abstract type="html">数据回调，可能调用多次，也可能一次不调用</Abstract>
+			<DeclaredIn>IFlySpeechFaceRequestDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">服务端返回的二进制数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onData:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/IFlySpeechFaceRequestDelegate/onCompleted:</TokenIdentifier>
+			<Abstract type="html">结束回调，没有错误时，error为nil</Abstract>
+			<DeclaredIn>IFlySpeechFaceRequestDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCompleted:(IFlyFaceError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">错误类型</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCompleted:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

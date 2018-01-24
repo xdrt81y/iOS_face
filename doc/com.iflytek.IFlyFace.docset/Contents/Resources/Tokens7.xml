@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/IFlyFaceErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/IFlyFaceErrorType</TokenIdentifier>
+			<Abstract type="html">人脸识别错误类型</Abstract>
+			<DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_KERNEL_CASE_1</TokenIdentifier>
+            <Abstract type="html">内核错误
+     </Abstract>
+            <Declaration>ERROR_FACE_KERNEL_CASE_1</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_KERNEL_CASE_2</TokenIdentifier>
+            <Abstract type="html">内核错误
+     </Abstract>
+            <Declaration>ERROR_FACE_KERNEL_CASE_2</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_KERNEL_CASE_3</TokenIdentifier>
+            <Abstract type="html">内核错误
+     </Abstract>
+            <Declaration>ERROR_FACE_KERNEL_CASE_3</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_KERNEL_CASE_4</TokenIdentifier>
+            <Abstract type="html">内核错误
+     </Abstract>
+            <Declaration>ERROR_FACE_KERNEL_CASE_4</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_KERNEL_CASE_NORMO</TokenIdentifier>
+            <Abstract type="html">引擎一般错误
+     </Abstract>
+            <Declaration>ERROR_FACE_KERNEL_CASE_NORMO</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_PARAM</TokenIdentifier>
+            <Abstract type="html">参数错误
+     </Abstract>
+            <Declaration>ERROR_FACE_PARAM</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_NET_TIMEOUT</TokenIdentifier>
+            <Abstract type="html">网络超时
+     </Abstract>
+            <Declaration>ERROR_FACE_NET_TIMEOUT</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_GID</TokenIdentifier>
+            <Abstract type="html">没有找到模型
+     </Abstract>
+            <Declaration>ERROR_FACE_GID</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_IMAGE_NULL</TokenIdentifier>
+            <Abstract type="html">传入的图片为空
+     </Abstract>
+            <Declaration>ERROR_FACE_IMAGE_NULL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_AUTH_IMGAGE_FULL</TokenIdentifier>
+            <Abstract type="html">用户注册图片授权满
+     </Abstract>
+            <Declaration>ERROR_FACE_AUTH_IMGAGE_FULL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_USERINFO</TokenIdentifier>
+            <Abstract type="html">用户信息有问题
+     </Abstract>
+            <Declaration>ERROR_FACE_USERINFO</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_PMACS</TokenIdentifier>
+            <Abstract type="html">pmacs向数据库插入数据有问题，反应在注册图片时和获取用户信息时返回。
+     </Abstract>
+            <Declaration>ERROR_FACE_PMACS</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_IMAGE_INVALID</TokenIdentifier>
+            <Abstract type="html">传输入的图片有问题，导致引擎处理超时。
+     </Abstract>
+            <Declaration>ERROR_FACE_IMAGE_INVALID</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_AUTH_FULL</TokenIdentifier>
+            <Abstract type="html">用户的使用授权满
+     </Abstract>
+            <Declaration>ERROR_FACE_AUTH_FULL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_NO_MODEL</TokenIdentifier>
+            <Abstract type="html">未找到模型
+     </Abstract>
+            <Declaration>ERROR_FACE_NO_MODEL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_NOT_FACE_IMAGE</TokenIdentifier>
+            <Abstract type="html">无人脸，对应的引擎错误码是20200
+     </Abstract>
+            <Declaration>ERROR_FACE_NOT_FACE_IMAGE</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_IMAGE_FULL_LEFT</TokenIdentifier>
+            <Abstract type="html">人脸向左，对应的引擎错误码是20201
+     </Abstract>
+            <Declaration>ERROR_FACE_IMAGE_FULL_LEFT</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_IMAGE_FULL_RIGHT</TokenIdentifier>
+            <Abstract type="html">人脸向右，对应的引擎错误码是20202
+     </Abstract>
+            <Declaration>ERROR_FACE_IMAGE_FULL_RIGHT</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_CLOCKWISE_WHIRL</TokenIdentifier>
+            <Abstract type="html">顺时针旋转，对应的引擎错误码是20203
+     </Abstract>
+            <Declaration>ERROR_FACE_CLOCKWISE_WHIRL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_COUNTET_CLOCKWISE_WHIRL</TokenIdentifier>
+            <Abstract type="html">逆时针旋转，对应的引擎错误码是20204
+     </Abstract>
+            <Declaration>ERROR_FACE_COUNTET_CLOCKWISE_WHIRL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_VALID_IMAGE_SIZE</TokenIdentifier>
+            <Abstract type="html">图片大小异常 ，对应的引擎错误码是20205
+     </Abstract>
+            <Declaration>ERROR_FACE_VALID_IMAGE_SIZE</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_ILLUMINATION</TokenIdentifier>
+            <Abstract type="html">光照异常，对应的引擎错误码是20206
+     </Abstract>
+            <Declaration>ERROR_FACE_ILLUMINATION</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_OCCULTATION</TokenIdentifier>
+            <Abstract type="html">人脸被遮挡，对应的引擎错误码是20207
+     </Abstract>
+            <Declaration>ERROR_FACE_OCCULTATION</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_INVALID_MODEL</TokenIdentifier>
+            <Abstract type="html">非法模型数据，对应的引擎错误码是20208
+     </Abstract>
+            <Declaration>ERROR_FACE_INVALID_MODEL</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_FUSION_INVALID_INPUT_TYPE</TokenIdentifier>
+            <Abstract type="html">输入数据类型非法，对应的引擎错误码是20300
+     </Abstract>
+            <Declaration>ERROR_FACE_FUSION_INVALID_INPUT_TYPE</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_FUSION_NO_ENOUGH_DATA</TokenIdentifier>
+            <Abstract type="html">输入的数据不完整，对应的引擎错误码是20301
+     </Abstract>
+            <Declaration>ERROR_FACE_FUSION_NO_ENOUGH_DATA</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ERROR_FACE_FUSION_ENOUGH_DATA</TokenIdentifier>
+            <Abstract type="html">输入的数据过多，对应的引擎错误码是20302
+     </Abstract>
+            <Declaration>ERROR_FACE_FUSION_ENOUGH_DATA</Declaration>
+            
+            <DeclaredIn>IFlyFaceErrorDefine.h</DeclaredIn>
+            
+            <NodeRef refid="7"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>
